@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://foxi.netlify.app/",
+  site: "https://mamas-autonomas.netlify.app/",
   integrations: [
     tailwind(),
     icon(),
@@ -19,3 +19,4 @@ export default defineConfig({
     }),
   ],
 });
+
