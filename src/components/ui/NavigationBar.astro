@@ -1,18 +1,4 @@
 ---
-// Header - Navigation bar
-// ------------
-// Description: navigation bars offer a persistent and convenient way to switch between primary destinations in an app.
-// Structure:
-// - Logo: the logo of the website
-// - Menu toggle: the mobile menu toggle of the navigation bar
-// - Navigation Links: the navigation links of the menu
-// - Actions: action buttons for the navigation bar
-// - Theme Switcher: the mode (light/dark) switcher of the website
-
-// Reference: https://wind-ui.com/components/navbars/
-
-// Components
-// - UI
 import { Icon } from 'astro-icon/components'
 import Button from './Button.astro'
 import Switcher from './ModeSwitcher.astro'
@@ -40,8 +26,8 @@ const savedNavActions = navActions.map((action) => ({
 		<nav aria-label="main navigation" role="navigation" class="header__nav">
 			<!-- Logo -->
 			<a href="/" class="header__logo">
-				<img src={logo.src} alt={logo.alt} width="48" height="48" />
-				<span>{logo.text}</span>
+				<img src={logo.src} alt={logo.alt} width="28" height="28" />
+				<!-- <span>{logo.text}</span> -->
 			</a>
 
 			<!-- Menu toggle -->
