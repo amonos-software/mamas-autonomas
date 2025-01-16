@@ -53,5 +53,5 @@ export const navigationBarData: NavData = {
 		// },
 		// { name: 'Contacto', link: '/contact' }
 	],
-	navActions: [{ name: '¡Únete a nosotras!', link: '/', style: 'primary', size: 'lg' }]
+	navActions: [{ name: '¡Únete a nosotras!', link: 'https://wa.me/5213317628358?text=¡Hola!%20Me%20interesa%20saber%20más%20sobre%20Mamás%20Autónomas%20y%20cómo%20puedo%20participar', style: 'primary', size: 'lg' }]
 }
