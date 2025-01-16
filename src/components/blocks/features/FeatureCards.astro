@@ -13,11 +13,11 @@ import Card from '../../ui/cards/FeatureCard.astro'
 
 // Content
 // - Cards
-import feature01 from '../../../assets/cards/feature-01.svg'
-import feature02 from '../../../assets/cards/feature-02.svg'
-import feature03 from '../../../assets/cards/feature-03.svg'
-import feature04 from '../../../assets/cards/feature-04.svg'
-import feature05 from '../../../assets/cards/feature-05.svg'
+import feature01 from '../../../assets/cards/feature-01.webp'
+import feature02 from '../../../assets/cards/feature-02.webp'
+import feature03 from '../../../assets/cards/feature-03.webp'
+import feature04 from '../../../assets/cards/feature-04.webp'
+import feature05 from '../../../assets/cards/feature-05.webp'
 ---
 
 <Section id="features">
@@ -35,35 +35,41 @@ import feature05 from '../../../assets/cards/feature-05.svg'
 				title="Intercambio de servicios"
 				subtitle="Accede a un directorio exclusivo con servicios para ti y tus hij@s con descuentos especiales por formar parte de nuestra red."
 				image={feature01}
-				link="#"
+				
 			/>
 		</Col>
-		<Col span="4" classes="flex flex-col gap-6">
+		<Col span="4">
 			<Card
 				title="Red de apoyo local con propósito"
 				subtitle="Conecta con mamas cercanas que comparten tus desafíos y metas, creando relaciones que te fortalecen."
 				image={feature02}
-				link="#"
+				
 			/>
+		</Col>
+		<Col span="4">
 			<Card
 				title="Elige como avanzar"
 				subtitle="Ofrece tus propios descuentos, Intercambia tus servicios, productos o haz trueque, que se adaptan a tus necesidades."
 				image={feature03}
-				link="#"
+				
 			/>
 		</Col>
-		<Col span="4" classes="flex flex-col gap-6">
+
+		<Col span="4">
 			<Card
 				title="Empoderamiento comunitario para crecer juntas"
 				subtitle="Se parte de un espacio que promueve tu independencia económica mientras fortaleces la unión don otras mamas autónomas."
 				image={feature04}
-				link="#"
+				
 			/>
+		</Col>
+		
+		<Col span="4">
 			<Card
 				title="Acceso a recursos diseñados para ti"
 				subtitle="Disfruta de talleres, eventos y contenido creado especialmente para mamás autónomas e hij@s, impulsando tu desarrollo personal y profesional."
 				image={feature05}
-				link="#"
+				
 			/>
 		</Col>
 	</Row>
