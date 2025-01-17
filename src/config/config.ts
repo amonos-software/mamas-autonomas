@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'Mamás Autónomas',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'FoImpulsa tu independencia económica, fortalece tu oficio y construye una red de apoyo mientras creces personal y profesionalmente.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		alt: 'Mamás Autónomas. logo'
 	},
 	canonical: true,
 	noindex: false,
